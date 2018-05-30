@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/tvNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Note1"/>
+
+    <TextView
+        android:id="@+id/tvCreatedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="created Date"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/tvNote"
+        />
+
+</RelativeLayout>
